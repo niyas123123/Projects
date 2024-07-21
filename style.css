@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(26, 16, 46);
+    color: #f7f4f4;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 80px;
+    background-color: rgb(18, 5, 63);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #f7f4f4;
+    transition: color 0.3s ease;
+  }
+  nav ul li a:hover {
+    color: rgba(218, 142, 218, 0.7);
+  }
+  main hr {
+    border: 0;
+    background: #a26ad7;
+    height: 1px;
+    margin: 0px 60px;
+  }
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px;
+  }
+  .firstsection > div {
+    width: 35%;
+  }
+  .leftsection {
+    font-size: 3rem;
+  }
+  .rightsection img {
+    width: 80%;
+  }
+  .purple {
+    color: rgb(164, 82, 240);
+  }
+  #element {
+    color: rgb(164, 82, 240);
+  }
+  .secondsection,
+  .about,
+  .resume,
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a26ad7;
+    font-size: 40px;
+  }
+  .about p,
+  .resume p,
+  .contact form {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(18, 5, 63);
+  }
+  footer p {
+    color: #f7f4f4;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  form div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a26ad7;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #8a4cc3;
+  }

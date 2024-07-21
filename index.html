@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Niyas's portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection" id="home">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Muhammed Niyas</span>,
+          <div>I am a passionate <span id="element"></span></div>
+        </div>
+        <div class="rightsection">
+          <img src="image bg.png" alt="Profile Image" />
+        </div>
+      </section>
+      <hr />
+      <section class="about" id="about">
+        <h1>About Me</h1>
+        <p>
+          Hello! I'm Niyas, a passionate web developer with experience in
+          creating dynamic and responsive websites. My skills include HTML, CSS,
+          JavaScript, and Python. I love coding and am always eager to learn new
+          technologies and improve my skills.
+        </p>
+      </section>
+      <hr />
+      <section class="resume" id="resume">
+        <h1>Resume</h1>
+        <p>
+          I am currently a 4th-year B.Tech computer science student with some
+          knowledge of C, Python, Java, HTML, CSS, and JavaScript. I am looking
+          forward to a career in IT, and I am passionate about web development
+          and learning new technologies.
+        </p>
+      </section>
+      <hr />
+      <section class="contact" id="contact">
+        <h1>Contact</h1>
+        <form>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Niyas's Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Student", "Web Developer"],
+        typeSpeed: 40,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
